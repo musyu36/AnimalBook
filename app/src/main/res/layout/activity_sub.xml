@@ -6,4 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".SubActivity">
 
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.example.animalbook.TitleFragment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/fragment_title" />
 </androidx.constraintlayout.widget.ConstraintLayout>
