@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="カバ"
-        app:layout_constraintEnd_toStartOf="@+id/iraffeButton"
+        app:layout_constraintEnd_toStartOf="@+id/giraffeButton"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/lionButton"
         app:layout_constraintTop_toTopOf="@+id/lionButton" />
@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/titleFragment" />
 
     <Button
-        android:id="@+id/iraffeButton"
+        android:id="@+id/giraffeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="キリン"
